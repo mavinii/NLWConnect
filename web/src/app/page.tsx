@@ -7,7 +7,6 @@ import { Button } from '@/components/button';
 
 export default function Home() {
   return (
-    <main className="max-w-[1240px] mx-auto px-5 py-8 md:py-0">
       <div className="min-h-dvh flex flex-col justify-center gap-16">
         
         {/* DIV dev stage and CodeCraft Summit 2025 */}
@@ -64,6 +63,5 @@ export default function Home() {
           </form>
         </div>
       </div>
-    </main>
   );
 }
